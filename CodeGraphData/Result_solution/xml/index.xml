@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="class_assignment01_1_1_book" kind="class"><name>Assignment01::Book</name>
+    <member refid="class_assignment01_1_1_book_1a847aebf3dfc312b781c070c07bb1bb14" kind="variable"><name>title</name></member>
+    <member refid="class_assignment01_1_1_book_1ac8cca772daa31c1cfe230ec93a1900ad" kind="variable"><name>author</name></member>
+    <member refid="class_assignment01_1_1_book_1a4d047bae881f558de3f4d1aa8b09d5ce" kind="variable"><name>price</name></member>
+    <member refid="class_assignment01_1_1_book_1aa563cf7dfb0be4fb0c91ca8f893cc701" kind="function"><name>Book</name></member>
+    <member refid="class_assignment01_1_1_book_1a3759d8523c59f191f2722b05d71437fc" kind="function"><name>Print</name></member>
+  </compound>
+  <compound refid="class_assignment01_1_1_book_store" kind="class"><name>Assignment01::BookStore</name>
+    <member refid="class_assignment01_1_1_book_store_1aa333e615b07b84c310b8416594116887" kind="variable"><name>books</name></member>
+    <member refid="class_assignment01_1_1_book_store_1a19e584ea5eea16c75421a8a2ffa48b8c" kind="function"><name>Add</name></member>
+    <member refid="class_assignment01_1_1_book_store_1a5a0e1359f2e62616896a3c30d33f4c21" kind="function"><name>PrintCompleteStock</name></member>
+  </compound>
+  <compound refid="class_assignment01_1_1_magazine" kind="class"><name>Assignment01::Magazine</name>
+    <member refid="class_assignment01_1_1_magazine_1af8c4fa3dfde949ad1ede70de418af62e" kind="variable"><name>release</name></member>
+    <member refid="class_assignment01_1_1_magazine_1a848df1e6125b8daaadf71919232b1dc3" kind="function"><name>Magazine</name></member>
+    <member refid="class_assignment01_1_1_magazine_1adb315d9dfd11d3906fdc0fe9ddc3a4a9" kind="function"><name>Print</name></member>
+  </compound>
+  <compound refid="class_assignment02_1_1_playing_card" kind="class"><name>Assignment02::PlayingCard</name>
+  </compound>
+  <compound refid="class_assignment02_1_1_program" kind="class"><name>Assignment02::Program</name>
+    <member refid="class_assignment02_1_1_program_1a8b5016da294ede395ec79d44d8ccecaa" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_assignment01_1_1_program" kind="class"><name>Assignment01::Program</name>
+    <member refid="class_assignment01_1_1_program_1ac753a5a398d10a842e4818310f033703" kind="function"><name>Main</name></member>
+    <member refid="class_assignment01_1_1_program_1a4477061aac92798cb0eb269272f3dfa2" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="namespace_assignment01" kind="namespace"><name>Assignment01</name>
+  </compound>
+  <compound refid="namespace_assignment02" kind="namespace"><name>Assignment02</name>
+    <member refid="namespace_assignment02_1a6f74ae1a9c19f64b5c205afd13e94151" kind="enum"><name>CardSuit</name></member>
+    <member refid="namespace_assignment02_1a6f74ae1a9c19f64b5c205afd13e94151a8dac9a2d5a20ebbf46559d684bae0f46" kind="enumvalue"><name>Spades</name></member>
+    <member refid="namespace_assignment02_1a6f74ae1a9c19f64b5c205afd13e94151abc56e1ae1e30e7123ffc5030f108f2a0" kind="enumvalue"><name>Clubs</name></member>
+    <member refid="namespace_assignment02_1a6f74ae1a9c19f64b5c205afd13e94151a6af4bf214d6cf054f9528da5b6054817" kind="enumvalue"><name>Hearts</name></member>
+    <member refid="namespace_assignment02_1a6f74ae1a9c19f64b5c205afd13e94151a74d868fafa8c57d04565f672807e7ef7" kind="enumvalue"><name>Diamonds</name></member>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="_book_8cs" kind="file"><name>Book.cs</name>
+  </compound>
+  <compound refid="_book_store_8cs" kind="file"><name>BookStore.cs</name>
+  </compound>
+  <compound refid="_magazine_8cs" kind="file"><name>Magazine.cs</name>
+  </compound>
+  <compound refid="_assignment01_2_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_assignment02_2_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_assignment01_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_assignment02_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_enums_8cs" kind="file"><name>Enums.cs</name>
+  </compound>
+  <compound refid="_playing_card_8cs" kind="file"><name>PlayingCard.cs</name>
+  </compound>
+  <compound refid="dir_503f8c2053eefd38234470e46e3c2c38" kind="dir"><name>C:/Users/jurek/source/repos/programming3-week2/Assignment01</name>
+  </compound>
+  <compound refid="dir_30a5ac9c06c0a8330fa31ebe7632bdff" kind="dir"><name>C:/Users/jurek/source/repos/programming3-week2/Assignment02</name>
+  </compound>
+  <compound refid="dir_40c730d11e457de660740e1192058fd4" kind="dir"><name>C:/Users/jurek</name>
+  </compound>
+  <compound refid="dir_36c17d85e14efd2f6b6d0ac66aeca628" kind="dir"><name>C:/Users/jurek/source/repos/programming3-week2</name>
+  </compound>
+  <compound refid="dir_6c504dc730a9acca0de6249fce6d94fc" kind="dir"><name>C:/Users/jurek/source/repos/programming3-week2/Assignment02/Properties</name>
+  </compound>
+  <compound refid="dir_7cc68df32e3de05438d1d999f91845b5" kind="dir"><name>C:/Users/jurek/source/repos/programming3-week2/Assignment01/Properties</name>
+  </compound>
+  <compound refid="dir_7d5c408e8a16bd8c9084c10e7ef4759a" kind="dir"><name>C:/Users/jurek/source/repos</name>
+  </compound>
+  <compound refid="dir_084a9afb6c9d6e4519f6c7f08488219a" kind="dir"><name>C:/Users/jurek/source</name>
+  </compound>
+  <compound refid="dir_8ceffd4ee35c3518d4e8bdc7e638efe8" kind="dir"><name>C:/Users</name>
+  </compound>
+</doxygenindex>

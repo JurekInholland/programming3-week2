@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_assignment01_1_1_program" kind="class" prot="public">
+    <compoundname>Assignment01::Program</compoundname>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_assignment01_1_1_program_1ac753a5a398d10a842e4818310f033703" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Assignment01.Program.Main</definition>
+        <argsstring>(string[] args)</argsstring>
+        <name>Main</name>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jurek/source/repos/programming3-week2/Assignment01/Program.cs" line="8" column="1" bodyfile="C:/Users/jurek/source/repos/programming3-week2/Assignment01/Program.cs" bodystart="8" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_assignment01_1_1_program_1a4477061aac92798cb0eb269272f3dfa2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Assignment01.Program.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jurek/source/repos/programming3-week2/Assignment01/Program.cs" line="13" column="1" bodyfile="C:/Users/jurek/source/repos/programming3-week2/Assignment01/Program.cs" bodystart="13" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/jurek/source/repos/programming3-week2/Assignment01/Program.cs" line="7" column="1" bodyfile="C:/Users/jurek/source/repos/programming3-week2/Assignment01/Program.cs" bodystart="6" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_assignment01_1_1_program_1ac753a5a398d10a842e4818310f033703" prot="private" virt="non-virtual"><scope>Assignment01::Program</scope><name>Main</name></member>
+      <member refid="class_assignment01_1_1_program_1a4477061aac92798cb0eb269272f3dfa2" prot="private" virt="non-virtual"><scope>Assignment01::Program</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

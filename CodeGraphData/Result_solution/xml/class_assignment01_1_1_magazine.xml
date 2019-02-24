@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_assignment01_1_1_magazine" kind="class" prot="public">
+    <compoundname>Assignment01::Magazine</compoundname>
+    <basecompoundref refid="class_assignment01_1_1_book" prot="public" virt="non-virtual">Assignment01.Book</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_assignment01_1_1_magazine_1af8c4fa3dfde949ad1ede70de418af62e" prot="public" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime Assignment01.Magazine.release</definition>
+        <argsstring></argsstring>
+        <name>release</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jurek/source/repos/programming3-week2/Assignment01/Magazine.cs" line="8" column="1" bodyfile="C:/Users/jurek/source/repos/programming3-week2/Assignment01/Magazine.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_assignment01_1_1_magazine_1a848df1e6125b8daaadf71919232b1dc3" compoundref="_magazine_8cs" startline="10" endline="13">Assignment01.Magazine.Magazine</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_assignment01_1_1_magazine_1a848df1e6125b8daaadf71919232b1dc3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Assignment01.Magazine.Magazine</definition>
+        <argsstring>(string title, double price, DateTime release)</argsstring>
+        <name>Magazine</name>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>price</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>release</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jurek/source/repos/programming3-week2/Assignment01/Magazine.cs" line="10" column="1" bodyfile="C:/Users/jurek/source/repos/programming3-week2/Assignment01/Magazine.cs" bodystart="10" bodyend="13"/>
+        <references refid="class_assignment01_1_1_magazine_1af8c4fa3dfde949ad1ede70de418af62e" compoundref="_magazine_8cs" startline="8">Assignment01.Magazine.release</references>
+      </memberdef>
+      <memberdef kind="function" id="class_assignment01_1_1_magazine_1adb315d9dfd11d3906fdc0fe9ddc3a4a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Assignment01.Magazine.Print</definition>
+        <argsstring>()</argsstring>
+        <name>Print</name>
+        <reimplements refid="class_assignment01_1_1_book_1a3759d8523c59f191f2722b05d71437fc">Print</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jurek/source/repos/programming3-week2/Assignment01/Magazine.cs" line="15" column="1" bodyfile="C:/Users/jurek/source/repos/programming3-week2/Assignment01/Magazine.cs" bodystart="15" bodyend="19"/>
+        <references refid="class_assignment01_1_1_book_1a4d047bae881f558de3f4d1aa8b09d5ce" compoundref="_book_8cs" startline="9">Assignment01.Book.price</references>
+        <references refid="class_assignment01_1_1_book_1a847aebf3dfc312b781c070c07bb1bb14" compoundref="_book_8cs" startline="7">Assignment01.Book.title</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>Assignment01.Magazine</label>
+        <link refid="class_assignment01_1_1_magazine"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Book</label>
+        <link refid="class_assignment01_1_1_book"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>Assignment01.Magazine</label>
+        <link refid="class_assignment01_1_1_magazine"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Book</label>
+        <link refid="class_assignment01_1_1_book"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/jurek/source/repos/programming3-week2/Assignment01/Magazine.cs" line="7" column="1" bodyfile="C:/Users/jurek/source/repos/programming3-week2/Assignment01/Magazine.cs" bodystart="6" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_assignment01_1_1_book_1ac8cca772daa31c1cfe230ec93a1900ad" prot="public" virt="non-virtual"><scope>Assignment01::Magazine</scope><name>author</name></member>
+      <member refid="class_assignment01_1_1_book_1aa563cf7dfb0be4fb0c91ca8f893cc701" prot="public" virt="non-virtual"><scope>Assignment01::Magazine</scope><name>Book</name></member>
+      <member refid="class_assignment01_1_1_magazine_1a848df1e6125b8daaadf71919232b1dc3" prot="public" virt="non-virtual"><scope>Assignment01::Magazine</scope><name>Magazine</name></member>
+      <member refid="class_assignment01_1_1_book_1a4d047bae881f558de3f4d1aa8b09d5ce" prot="public" virt="non-virtual"><scope>Assignment01::Magazine</scope><name>price</name></member>
+      <member refid="class_assignment01_1_1_magazine_1adb315d9dfd11d3906fdc0fe9ddc3a4a9" prot="public" virt="virtual"><scope>Assignment01::Magazine</scope><name>Print</name></member>
+      <member refid="class_assignment01_1_1_magazine_1af8c4fa3dfde949ad1ede70de418af62e" prot="public" virt="non-virtual"><scope>Assignment01::Magazine</scope><name>release</name></member>
+      <member refid="class_assignment01_1_1_book_1a847aebf3dfc312b781c070c07bb1bb14" prot="public" virt="non-virtual"><scope>Assignment01::Magazine</scope><name>title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_assignment01_2_program_8cs" kind="file">
+    <compoundname>Program.cs</compoundname>
+    <innerclass refid="class_assignment01_1_1_program" prot="public">Assignment01::Program</innerclass>
+    <innernamespace refid="namespace_assignment01">Assignment01</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Assignment01</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="class_assignment01_1_1_program" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_assignment01_1_1_program" kindref="compound">Program</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8" refid="class_assignment01_1_1_program_1ac753a5a398d10a842e4818310f033703" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_assignment01_1_1_program_1ac753a5a398d10a842e4818310f033703" kindref="member">Main</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">[]<sp/>args)</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_assignment01_1_1_program" kindref="compound">Program</ref><sp/>myProgram<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_assignment01_1_1_program" kindref="compound">Program</ref>();</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>myProgram.Start();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="13" refid="class_assignment01_1_1_program_1a4477061aac92798cb0eb269272f3dfa2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_assignment01_1_1_program_1a4477061aac92798cb0eb269272f3dfa2" kindref="member">Start</ref>()</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_assignment01_1_1_book_store" kindref="compound">BookStore</ref><sp/>bookStore<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_assignment01_1_1_book_store" kindref="compound">BookStore</ref>();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Add<sp/>books</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bookStore.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_assignment01_1_1_book" kindref="compound">Book</ref>(</highlight><highlight class="stringliteral">&quot;War<sp/>and<sp/>Peace&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Leo<sp/>Tolstoy&quot;</highlight><highlight class="normal">,<sp/>19.99));</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bookStore.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_assignment01_1_1_book" kindref="compound">Book</ref>(</highlight><highlight class="stringliteral">&quot;Metro<sp/>2033&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Dmitry<sp/>Glukhovsky&quot;</highlight><highlight class="normal">,<sp/>12.99));</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bookStore.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_assignment01_1_1_book" kindref="compound">Book</ref>(</highlight><highlight class="stringliteral">&quot;Die<sp/>Blechtrommel&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Günther<sp/>Grass&quot;</highlight><highlight class="normal">,<sp/>14.90));</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Add<sp/>Magazines</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bookStore.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_assignment01_1_1_magazine" kindref="compound">Magazine</ref>(</highlight><highlight class="stringliteral">&quot;Chip&quot;</highlight><highlight class="normal">,<sp/>4.99,<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>DateTime(2018,<sp/>12,<sp/>5)));</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bookStore.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_assignment01_1_1_magazine" kindref="compound">Magazine</ref>(</highlight><highlight class="stringliteral">&quot;Autoweek&quot;</highlight><highlight class="normal">,<sp/>6.75,<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>DateTime(2018,<sp/>11,<sp/>10)));</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bookStore.PrintCompleteStock();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Console.ReadKey();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/jurek/source/repos/programming3-week2/Assignment01/Program.cs"/>
+  </compounddef>
+</doxygen>

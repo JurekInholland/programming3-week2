@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_assignment01_1_1_book_store" kind="class" prot="public">
+    <compoundname>Assignment01::BookStore</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_assignment01_1_1_book_store_1aa333e615b07b84c310b8416594116887" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_assignment01_1_1_book" kindref="compound">Book</ref> &gt;</type>
+        <definition>List&lt;Book&gt; Assignment01.BookStore.books</definition>
+        <argsstring></argsstring>
+        <name>books</name>
+        <initializer>= new List&lt;<ref refid="class_assignment01_1_1_book" kindref="compound">Book</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jurek/source/repos/programming3-week2/Assignment01/BookStore.cs" line="9" column="1" bodyfile="C:/Users/jurek/source/repos/programming3-week2/Assignment01/BookStore.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_assignment01_1_1_book_store_1a5a0e1359f2e62616896a3c30d33f4c21" compoundref="_book_store_8cs" startline="16" endline="27">Assignment01.BookStore.PrintCompleteStock</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_assignment01_1_1_book_store_1a19e584ea5eea16c75421a8a2ffa48b8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Assignment01.BookStore.Add</definition>
+        <argsstring>(Book book)</argsstring>
+        <name>Add</name>
+        <param>
+          <type><ref refid="class_assignment01_1_1_book" kindref="compound">Book</ref></type>
+          <declname>book</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jurek/source/repos/programming3-week2/Assignment01/BookStore.cs" line="11" column="1" bodyfile="C:/Users/jurek/source/repos/programming3-week2/Assignment01/BookStore.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_assignment01_1_1_book_store_1a5a0e1359f2e62616896a3c30d33f4c21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Assignment01.BookStore.PrintCompleteStock</definition>
+        <argsstring>()</argsstring>
+        <name>PrintCompleteStock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jurek/source/repos/programming3-week2/Assignment01/BookStore.cs" line="16" column="1" bodyfile="C:/Users/jurek/source/repos/programming3-week2/Assignment01/BookStore.cs" bodystart="16" bodyend="27"/>
+        <references refid="class_assignment01_1_1_book_store_1aa333e615b07b84c310b8416594116887" compoundref="_book_store_8cs" startline="9">Assignment01.BookStore.books</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/jurek/source/repos/programming3-week2/Assignment01/BookStore.cs" line="8" column="1" bodyfile="C:/Users/jurek/source/repos/programming3-week2/Assignment01/BookStore.cs" bodystart="7" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_assignment01_1_1_book_store_1a19e584ea5eea16c75421a8a2ffa48b8c" prot="public" virt="non-virtual"><scope>Assignment01::BookStore</scope><name>Add</name></member>
+      <member refid="class_assignment01_1_1_book_store_1aa333e615b07b84c310b8416594116887" prot="public" virt="non-virtual"><scope>Assignment01::BookStore</scope><name>books</name></member>
+      <member refid="class_assignment01_1_1_book_store_1a5a0e1359f2e62616896a3c30d33f4c21" prot="public" virt="non-virtual"><scope>Assignment01::BookStore</scope><name>PrintCompleteStock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

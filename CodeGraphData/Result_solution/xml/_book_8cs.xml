@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_book_8cs" kind="file">
+    <compoundname>Book.cs</compoundname>
+    <innerclass refid="class_assignment01_1_1_book" prot="public">Assignment01::Book</innerclass>
+    <innernamespace refid="namespace_assignment01">Assignment01</innernamespace>
+    <innernamespace refid="namespace_system">System</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="namespace_assignment01" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Assignment01</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="class_assignment01_1_1_book" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_assignment01_1_1_book" kindref="compound">Book</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7" refid="class_assignment01_1_1_book_1a847aebf3dfc312b781c070c07bb1bb14" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_assignment01_1_1_book_1a847aebf3dfc312b781c070c07bb1bb14" kindref="member">title</ref>;</highlight></codeline>
+<codeline lineno="8" refid="class_assignment01_1_1_book_1ac8cca772daa31c1cfe230ec93a1900ad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_assignment01_1_1_book_1ac8cca772daa31c1cfe230ec93a1900ad" kindref="member">author</ref>;</highlight></codeline>
+<codeline lineno="9" refid="class_assignment01_1_1_book_1a4d047bae881f558de3f4d1aa8b09d5ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_assignment01_1_1_book_1a4d047bae881f558de3f4d1aa8b09d5ce" kindref="member">price</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_assignment01_1_1_book_1aa563cf7dfb0be4fb0c91ca8f893cc701" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_assignment01_1_1_book_1aa563cf7dfb0be4fb0c91ca8f893cc701" kindref="member">Book</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_assignment01_1_1_book_1a847aebf3dfc312b781c070c07bb1bb14" kindref="member">title</ref>,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_assignment01_1_1_book_1ac8cca772daa31c1cfe230ec93a1900ad" kindref="member">author</ref>,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_assignment01_1_1_book_1a4d047bae881f558de3f4d1aa8b09d5ce" kindref="member">price</ref>)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.title<sp/>=<sp/><ref refid="class_assignment01_1_1_book_1a847aebf3dfc312b781c070c07bb1bb14" kindref="member">title</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.author<sp/>=<sp/><ref refid="class_assignment01_1_1_book_1ac8cca772daa31c1cfe230ec93a1900ad" kindref="member">author</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.price<sp/>=<sp/><ref refid="class_assignment01_1_1_book_1a4d047bae881f558de3f4d1aa8b09d5ce" kindref="member">price</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="class_assignment01_1_1_book_1a3759d8523c59f191f2722b05d71437fc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_assignment01_1_1_book_1a3759d8523c59f191f2722b05d71437fc" kindref="member">Print</ref>()</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Console.WriteLine(</highlight><highlight class="stringliteral">&quot;[Book]<sp/>&apos;{0}&apos;<sp/>by<sp/>{1},<sp/>{2:#.00}&quot;</highlight><highlight class="normal">,<sp/><ref refid="class_assignment01_1_1_book_1a847aebf3dfc312b781c070c07bb1bb14" kindref="member">title</ref>,<sp/><ref refid="class_assignment01_1_1_book_1ac8cca772daa31c1cfe230ec93a1900ad" kindref="member">author</ref>,<sp/><ref refid="class_assignment01_1_1_book_1a4d047bae881f558de3f4d1aa8b09d5ce" kindref="member">price</ref>);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/jurek/source/repos/programming3-week2/Assignment01/Book.cs"/>
+  </compounddef>
+</doxygen>

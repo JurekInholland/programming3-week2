@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_enums_8cs" kind="file">
+    <compoundname>Enums.cs</compoundname>
+    <innernamespace refid="namespace_assignment02">Assignment02</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespace_assignment02" refkind="compound"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Assignment02</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3" refid="namespace_assignment02_1a6f74ae1a9c19f64b5c205afd13e94151" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespace_assignment02_1a6f74ae1a9c19f64b5c205afd13e94151" kindref="member">CardSuit</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_assignment02_1a6f74ae1a9c19f64b5c205afd13e94151a8dac9a2d5a20ebbf46559d684bae0f46" kindref="member">Spades</ref>,<sp/><ref refid="namespace_assignment02_1a6f74ae1a9c19f64b5c205afd13e94151abc56e1ae1e30e7123ffc5030f108f2a0" kindref="member">Clubs</ref>,<sp/><ref refid="namespace_assignment02_1a6f74ae1a9c19f64b5c205afd13e94151a6af4bf214d6cf054f9528da5b6054817" kindref="member">Hearts</ref>,<sp/><ref refid="namespace_assignment02_1a6f74ae1a9c19f64b5c205afd13e94151a74d868fafa8c57d04565f672807e7ef7" kindref="member">Diamonds</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/jurek/source/repos/programming3-week2/Assignment02/Enums.cs"/>
+  </compounddef>
+</doxygen>

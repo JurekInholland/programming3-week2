@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_assignment02" kind="namespace">
+    <compoundname>Assignment02</compoundname>
+    <innerclass refid="class_assignment02_1_1_playing_card" prot="public">Assignment02::PlayingCard</innerclass>
+    <innerclass refid="class_assignment02_1_1_program" prot="public">Assignment02::Program</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_assignment02_1a6f74ae1a9c19f64b5c205afd13e94151" prot="public" static="no">
+        <name>CardSuit</name>
+        <enumvalue id="namespace_assignment02_1a6f74ae1a9c19f64b5c205afd13e94151a8dac9a2d5a20ebbf46559d684bae0f46" prot="public">
+          <name>Spades</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_assignment02_1a6f74ae1a9c19f64b5c205afd13e94151abc56e1ae1e30e7123ffc5030f108f2a0" prot="public">
+          <name>Clubs</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_assignment02_1a6f74ae1a9c19f64b5c205afd13e94151a6af4bf214d6cf054f9528da5b6054817" prot="public">
+          <name>Hearts</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_assignment02_1a6f74ae1a9c19f64b5c205afd13e94151a74d868fafa8c57d04565f672807e7ef7" prot="public">
+          <name>Diamonds</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jurek/source/repos/programming3-week2/Assignment02/Enums.cs" line="4" column="1" bodyfile="C:/Users/jurek/source/repos/programming3-week2/Assignment02/Enums.cs" bodystart="3" bodyend="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/jurek/source/repos/programming3-week2/Assignment02/Enums.cs" line="2" column="1"/>
+  </compounddef>
+</doxygen>
